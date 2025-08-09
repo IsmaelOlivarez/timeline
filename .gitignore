@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / Web / Expo
+node_modules/
+.expo/
+.expo-shared/
+.next/
+out/
+dist/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# React Native / iOS / Android (if you generate native projects)
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/build/
+android/build/
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.iml
+
+# Java / Gradle (backend)
+.gradle/
+build/
+target/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
